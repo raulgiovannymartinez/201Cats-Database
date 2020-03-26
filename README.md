@@ -1,4 +1,4 @@
-The 201Cats web application provides sophisticated cat video viewing to its users. Each user has a user name and logs in the 201Cats using his Facebook log-in. Consequently, the company regularly obtains information of which ones of the 201Cats users are Facebook followers of other 201Cats users.
+The 201Cats web application provides sophisticated cat video viewing to its users. Each user has a user name and logs in the 201Cats using his Facebook log-in. Consequently, the company regularly obtains information of which ones of the 201Cats users are Facebook followers of other 201Cats users. \newline
 When a user logs in, the web application suggests to her 10 cat videos – more on this below. The user may
 • Watch one of the suggested videos
 • Like a suggested video; may like a video even without watching it. A user may like a video just
