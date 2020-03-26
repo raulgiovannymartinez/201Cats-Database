@@ -15,5 +15,5 @@ logged in.
 the database captures both that “X is friend of Y” and “Y is friend of X”, despite the fact that this is redundant since Facebook friendships are symmetric.
 
 ## Entity-Relationship Diagram
-![GitHub Logo] (/ER_diagram.png)
-Format: ![Alt Text](url)
+![alt text](https://github.com/raulgiovannymartinez/201Cats-Database/blob/master/ER_diagram.png)
+
