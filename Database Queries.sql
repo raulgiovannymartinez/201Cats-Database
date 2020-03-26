@@ -1,6 +1,7 @@
 -- 201Cats offers to the logged-in user X many options for controlling how the Top-10 cat videos are selected.
 
--- Option “Overall Likes”: The Top-10 cat videos are the ones that have collected the highest numbers of likes, overall.
+-- Option “Overall Likes”: 
+/* The Top-10 cat videos are the ones that have collected the highest numbers of likes, overall. */
 -- Overall Likes
 select video_id, "Video Name", "Overall Likes"
 from (
@@ -17,7 +18,8 @@ where rn <= 10
 ;
 
 
--- Option “Friend Likes”: The Top-10 cat videos are the ones that have collected the highest numbers of likes from the friends of X.
+-- Option “Friend Likes”: 
+/* The Top-10 cat videos are the ones that have collected the highest numbers of likes from the friends of X. */
 -- Friend Likes
 select video_id, "Video Name", "Overall Likes"
 from (
@@ -40,7 +42,9 @@ where rn <= 10
 ;
 
 
--- Option “Friends-of-Friends Likes”: The Top-10 cat videos are the ones that have collected the highest numbers of likes from friends and friends-of-friends.
+-- Option “Friends-of-Friends Likes”: 
+/* The Top-10 cat videos are the ones that have collected the highest numbers of likes from friends 
+and friends-of-friends. */
 -- Friends of Friends Likes
 select video_id, "Video Name", "Overall Likes"
 from (
@@ -72,7 +76,9 @@ where rn <= 10
 ;
 
 
--- Option “My kind of cats”: The Top-10 cat videos are the ones that have collected the most likes from users who have liked at least one cat video that was liked by X.
+-- Option “My kind of cats”: 
+/* The Top-10 cat videos are the ones that have collected the most likes from users who have liked at 
+least one cat video that was liked by X. */
 -- My kind of cats
 select video_id, "Video Name", "Overall Likes"
 from (
@@ -102,7 +108,9 @@ where rn <= 10
 ;
 
 
--- Option “My kind of cats – with preference (to cat aficionados that have the same tastes)”: The Top-10 cat videos are the ones that have collected the highest sum of weighted likes from every other user Y (i.e., given a cat video, each like on it, is multiplied by a weight).
+-- Option “My kind of cats – with preference (to cat aficionados that have the same tastes)”: 
+/* The Top-10 cat videos are the ones that have collected the highest sum of weighted likes from every other 
+user Y (i.e., given a cat video, each like on it, is multiplied by a weight). */
 -- My kind of cats - with preference
 select video_id, "Video Name", "Sum Weighted Likes"
 from (

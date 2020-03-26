@@ -1,5 +1,7 @@
 -- Create pre-computed tables for 201Cats query:
--- Option “My kind of cats – with preference (to cat aficionados that have the same tastes)”: The Top-10 cat videos are the ones that have collected the highest sum of weighted likes from every other user Y (i.e., given a cat video, each like on it, is multiplied by a weight).
+/* Option “My kind of cats – with preference (to cat aficionados that have the same tastes)”: 
+The Top-10 cat videos are the ones that have collected the highest sum of weighted likes from every other 
+user Y (i.e., given a cat video, each like on it, is multiplied by a weight). */
 
 
 -- Option #1: Precomputed tables on vectors for users X and Y
