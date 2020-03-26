@@ -13,3 +13,7 @@ once. Clicking many times on the like does not result on “liking many times”
 logged in.
 - Which 201Cats users are friends of each user. You are allowed some redundancy here: It is OK if
 the database captures both that “X is friend of Y” and “Y is friend of X”, despite the fact that this is redundant since Facebook friendships are symmetric.
+
+## Entity-Relationship Diagram
+![GitHub Logo] (/ER_diagram.png)
+Format: ![Alt Text](url)
